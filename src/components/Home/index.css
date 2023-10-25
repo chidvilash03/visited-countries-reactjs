@@ -1,0 +1,29 @@
+.main-container {
+  background-color: #161624;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 15px;
+}
+.item-container {
+  height: 40vh;
+  overflow-y: auto;
+}
+.visited-countries-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.n {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}

@@ -1,0 +1,32 @@
+.country-img {
+  width: 300px;
+  height: 100px;
+}
+.btn-remove {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  text-align: center;
+  height: 30px;
+  width: 70px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #ffffff;
+  margin-right: 70px;
+}
+.v-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 120px;
+  width: 360px;
+  margin: 15px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
